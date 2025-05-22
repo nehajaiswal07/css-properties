@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Example Page</title>
+
+  <!-- Link to External CSS -->
+  <link rel="stylesheet" href="cssexample.css">
+
+  <!-- Internal CSS -->
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 20px;
+      background:linear-gradient(to right, #a18cd1, #fbc2eb)
+    }
+    .internal-style {
+      color: darkblue;
+      font-size: 1.2rem;
+      background-color: #e0f7fa;
+      padding: 10px;
+      border-left: 5px solid #0288d1;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: left;
+    }
+    th {
+      background-color: #0288d1;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 style="color: darkgreen;">Welcome to My CSS Demo Page</h1> <!-- Inline CSS -->
+
+  <p class="internal-style">
+    This paragraph uses internal CSS for styling. It is styled with a background color, border, and padding. CSS allows for three main types of implementation: inline, internal, and external. Each method serves different purposes depending on the need for reusability and maintainability.
+  </p>
+
+  <p>
+    Here's a <strong>long paragraph</strong> of placeholder text to demonstrate paragraph styling. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae sapien nec metus porttitor ultrices. Vivamus lacinia velit in ligula viverra, ac tempor magna egestas. Duis vel luctus enim. Cras faucibus nulla a sollicitudin porttitor. Maecenas ut nisi vel justo porttitor egestas. Sed congue velit nec nisi feugiat, at luctus libero efficitur. Vestibulum commodo dolor eu posuere facilisis. Sed vulputate odio at sem pretium tristique. Integer tempor accumsan velit, in efficitur purus tempor nec.
+  </p>
+
+  <img src="https://via.placeholder.com/400x200" alt="Sample Image" style="border: 2px solid #555;"> <!-- Inline CSS -->
+
+  <ul>
+    <li>HTML - HyperText Markup Language</li>
+    <li>CSS - Cascading Style Sheets</li>
+    <li>JavaScript - Scripting language for the web</li>
+  </ul>
+
+  
+  <table>
+    <tr>
+      <th>Language</th>
+      <th>Usage</th>
+    </tr>
+    <tr>
+      <td>HTML</td>
+      <td>Structure of Web Pages</td>
+    </tr>
+    <tr>
+      <td>CSS</td>
+      <td>Styling and Layout</td>
+    </tr>
+    <tr>
+      <td>JavaScript</td>
+      <td>Interactivity</td>
+    </tr>
+  </table>
+
+  <p class="external-style">This paragraph is styled using external CSS.</p>
+
+</body>
+</html>
